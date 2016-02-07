@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--MainViewController-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController title="MainViewController" id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Braintree Card Payments" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wWt-l2-Hqc">
+                                <rect key="frame" x="0.0" y="20" width="375" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Ara-jc-eSM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dean Dave Mustaine Guitar - 1199.00 USD" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tIB-56-cYN">
+                                <rect key="frame" x="20" y="75" width="335" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="llr-YT-Lrb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dean.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="lL4-oW-CCb">
+                                <rect key="frame" x="91" y="114" width="193" height="129"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter card number..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cdl-Rr-LQx">
+                                <rect key="frame" x="20" y="292" width="335" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="awQ-oZ-QFW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter card details" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o2e-SR-8wC">
+                                <rect key="frame" x="20" y="263" width="335" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="A0p-cv-YJA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter expiry month e.g. 01" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qqG-Gl-rDt">
+                                <rect key="frame" x="20" y="342" width="335" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="EDk-o4-5aT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter expiry year e.g. 2018" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nP0-V2-8Vj">
+                                <rect key="frame" x="20" y="391" width="335" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="CV1-HV-zt7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cuT-p0-lKC">
+                                <rect key="frame" x="20" y="510" width="335" height="50"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="nRl-D7-PrW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Buy">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buyButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="puW-60-yWl"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter CVV code" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nxl-f6-7vm">
+                                <rect key="frame" x="20" y="439" width="335" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="5ss-sO-Tje"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="nP0-V2-8Vj" firstAttribute="top" secondItem="qqG-Gl-rDt" secondAttribute="bottom" constant="19" id="4KM-XZ-YIO"/>
+                            <constraint firstItem="tIB-56-cYN" firstAttribute="top" secondItem="wWt-l2-Hqc" secondAttribute="bottom" constant="15" id="5As-xy-Pcb"/>
+                            <constraint firstItem="qqG-Gl-rDt" firstAttribute="trailing" secondItem="cdl-Rr-LQx" secondAttribute="trailing" id="64J-en-ab7"/>
+                            <constraint firstItem="cuT-p0-lKC" firstAttribute="top" secondItem="nxl-f6-7vm" secondAttribute="bottom" constant="41" id="8kX-Ci-OVh"/>
+                            <constraint firstAttribute="trailing" secondItem="wWt-l2-Hqc" secondAttribute="trailing" id="C56-75-Qsl"/>
+                            <constraint firstItem="tIB-56-cYN" firstAttribute="centerX" secondItem="wWt-l2-Hqc" secondAttribute="centerX" id="C6k-ja-BaE"/>
+                            <constraint firstItem="tIB-56-cYN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="4" id="DOB-HC-wgB"/>
+                            <constraint firstItem="wWt-l2-Hqc" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Fdw-tr-DtZ"/>
+                            <constraint firstItem="cuT-p0-lKC" firstAttribute="trailing" secondItem="nxl-f6-7vm" secondAttribute="trailing" id="JKA-yh-uFz"/>
+                            <constraint firstItem="o2e-SR-8wC" firstAttribute="trailing" secondItem="cdl-Rr-LQx" secondAttribute="trailing" id="Kw8-OM-1RG"/>
+                            <constraint firstItem="wWt-l2-Hqc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="LGZ-v8-Gjf"/>
+                            <constraint firstItem="lL4-oW-CCb" firstAttribute="top" secondItem="tIB-56-cYN" secondAttribute="bottom" constant="8" symbolic="YES" id="LMa-XV-ZLi"/>
+                            <constraint firstItem="nP0-V2-8Vj" firstAttribute="leading" secondItem="nxl-f6-7vm" secondAttribute="leading" id="N9X-2p-aM1"/>
+                            <constraint firstItem="cdl-Rr-LQx" firstAttribute="leading" secondItem="qqG-Gl-rDt" secondAttribute="leading" id="QGw-zN-CH8"/>
+                            <constraint firstItem="nxl-f6-7vm" firstAttribute="leading" secondItem="cuT-p0-lKC" secondAttribute="leading" id="Tfs-5k-6Wq"/>
+                            <constraint firstItem="nP0-V2-8Vj" firstAttribute="leading" secondItem="qqG-Gl-rDt" secondAttribute="leading" id="Uc1-nG-AVA"/>
+                            <constraint firstItem="nxl-f6-7vm" firstAttribute="top" secondItem="nP0-V2-8Vj" secondAttribute="bottom" constant="18" id="VUC-Iv-Dub"/>
+                            <constraint firstItem="cdl-Rr-LQx" firstAttribute="leading" secondItem="o2e-SR-8wC" secondAttribute="leading" id="YOr-mb-dBH"/>
+                            <constraint firstItem="tIB-56-cYN" firstAttribute="leading" secondItem="o2e-SR-8wC" secondAttribute="leading" id="YyL-s8-2B9"/>
+                            <constraint firstItem="nxl-f6-7vm" firstAttribute="trailing" secondItem="nP0-V2-8Vj" secondAttribute="trailing" id="ZhB-V1-JWZ"/>
+                            <constraint firstItem="cdl-Rr-LQx" firstAttribute="top" secondItem="o2e-SR-8wC" secondAttribute="bottom" constant="8" symbolic="YES" id="bTi-Fl-jEZ"/>
+                            <constraint firstItem="qqG-Gl-rDt" firstAttribute="trailing" secondItem="nP0-V2-8Vj" secondAttribute="trailing" id="bjy-VU-Vav"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="cuT-p0-lKC" secondAttribute="bottom" constant="107" id="gS3-Ev-foa"/>
+                            <constraint firstItem="tIB-56-cYN" firstAttribute="trailing" secondItem="o2e-SR-8wC" secondAttribute="trailing" id="iTg-kR-Y4K"/>
+                            <constraint firstItem="lL4-oW-CCb" firstAttribute="centerX" secondItem="tIB-56-cYN" secondAttribute="centerX" id="jOy-yZ-SfA"/>
+                            <constraint firstItem="lL4-oW-CCb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="75" id="kXb-Kd-lb8"/>
+                            <constraint firstItem="qqG-Gl-rDt" firstAttribute="top" secondItem="cdl-Rr-LQx" secondAttribute="bottom" constant="20" id="tIA-3s-D5y"/>
+                            <constraint firstItem="o2e-SR-8wC" firstAttribute="top" secondItem="lL4-oW-CCb" secondAttribute="bottom" constant="20" id="yha-fI-fvy"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="buyButton" destination="cuT-p0-lKC" id="KTd-0R-9p6"/>
+                        <outlet property="cardCvvTextField" destination="nxl-f6-7vm" id="ViH-ne-vSO"/>
+                        <outlet property="cardExpiryMonthTextField" destination="qqG-Gl-rDt" id="BAm-Wv-Pfl"/>
+                        <outlet property="cardExpiryYearTextField" destination="nP0-V2-8Vj" id="xti-hq-rGC"/>
+                        <outlet property="cardTextField" destination="cdl-Rr-LQx" id="O57-36-yIq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="304.5" y="429.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="dean.jpg" width="900" height="570"/>
+    </resources>
+</document>
